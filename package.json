@@ -1,0 +1,41 @@
+{
+  "name": "react-todos",
+  "version": "1.0.0",
+  "description": "이 프로젝트는 react, typescript를 사용하는 TODO관리 싱글 페이지 어플리케이션이다.",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrod/react-todos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astrod/react-todos/issues"
+  },
+  "homepage": "https://github.com/astrod/react-todos#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "typescript": "^3.5.3",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.config.js",
+    "build" : "webpack"
+  }
+
+}
