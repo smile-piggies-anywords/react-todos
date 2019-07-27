@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "이 프로젝트는 react, typescript를 사용하는 TODO관리 싱글 페이지 어플리케이션이다.",
   "main": "webpack.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/astrod/react-todos.git"
@@ -37,7 +34,8 @@
     "webpack-dev-server": "^3.7.2"
   },
   "scripts": {
-    "dev": "webpack-dev-server --config ./webpack.config.js"
+    "dev": "webpack-dev-server --config ./webpack.config.js",
+    "build" : "webpack"
   }
 
 }
